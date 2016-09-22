@@ -1,22 +1,12 @@
-def palindrome(phrase):
+def palindrome_test(phrase):
     phrase = str.lower(phrase)
 
-    length = len(phrase)
+    # If the inverse of the string is the same as the string itself, the string
+    # is a palindrome.
 
-    half1 = ""
-    half2 = ""
-
-    # Range is (length - 1) / 2 so that the function always rounds down to the
-    # index of the character before the middle of the word.
-    for i in range((length - 1) / 2):
-        half1 += phrase[i]
-
-    for i in range(length - 1, length / 2, -1):
-        half2 += phrase[i]
-
-    return half1 == half2
+    return phrase == phrase[::-1]
 
 
-while (True):
+while True:
     word = raw_input("Enter a word to see if it's a palindrome: ")
-    print palindrome(word)
+    print palindrome_test(word)

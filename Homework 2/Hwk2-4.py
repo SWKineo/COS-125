@@ -1,4 +1,6 @@
 def left_pad(string, padder, pad_length):
+    string = str(string)
+
     while len(string) < pad_length:
         string = padder + string
 
