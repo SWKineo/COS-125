@@ -1,0 +1,3 @@
+Resizing the window: http://stackoverflow.com/questions/21958534/setting-the-window-to-a-fixed-size-with-tkinter
+Using images in labels: http://www.java2s.com/Code/Python/GUI-Tk/Addgifimagetoabutton.htm
+Sorting lists: https://wiki.python.org/moin/HowTo/Sorting

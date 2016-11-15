@@ -1,0 +1,29 @@
+Python Variable Rules:
+    a-Z, 0-9, _
+    lowercaseUppercase
+Comment Character:
+    #
+Type Detection:
+    type(object)
+Multiline Strings:
+    """
+    """
+Line Continuation Character:
+    \
+For loops:
+    for i in range(<startin>, <endex>):
+        #code
+Else/If
+    if condition:
+        #code
+    else
+        #code
+
+    if condition:
+        #code
+    elif condition:
+        #code
+Boolean Operators:
+    AND: and
+     OR: or
+    NOT: !
