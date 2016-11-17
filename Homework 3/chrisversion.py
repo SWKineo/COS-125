@@ -11,15 +11,17 @@ class Hand:
 class Die:
     def __init__(self, frame):
        self.value = random.randint(1,6)
-       img = Tkinter.PhotoImage(file='1.gif')
+       self.img = Tkinter.PhotoImage(file='1.gif')
        self.display = Tkinter.Label(frame,
-                                    image=img,
+                                    image=self.img,
                                     relief = 'ridge',
                                     borderwidth = 6)
-       self.display.pack(side = 'left'),
+       self.display.pack(side = 'left')
+       self.image
 
     def roll(self):
         self.value = random.randint(1,6)
+
         self.display.config(image = Tkinter.PhotoImage(file = str(self.value)+ '.gif'))
 
 
